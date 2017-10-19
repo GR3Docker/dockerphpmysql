@@ -1,0 +1,28 @@
+version: "3.1"
+
+
+services:
+
+# MariaDB container
+  mariadb:
+    image: mariadb
+    container_name: mariadb_container
+    environment:
+        - MYSQL_ROOT_PASSWORD=root
+        
+  
+# phpMyAdmin container
+  phpmyadmin:
+    
+    #/ A CHANGER PAR LA LIGNE SUIVANTE !
+    #/ build: .:
+    image: php:apache
+    
+    
+    container_name: phpmyadmin_container
+    ports:
+      - "8081:80"
+    links:
+        - mariadb:db
+    volumes: 
+       - .:/var/www/html
