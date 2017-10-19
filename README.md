@@ -1,4 +1,4 @@
-# Installation de l'environnement php:mysql
+# Installation de l'environnement php:apachePDO
 Cette environnment permet de dévelloper sur le langage PHP
 ## Installation de Docker
 ### Telecharger Docker:
@@ -9,7 +9,7 @@ Cette environnment permet de dévelloper sur le langage PHP
   
   Une fois télecharger installer le et laisser les parametre par défaut.
   
-### Installation de l'image <toto/php:mysql>:
+### Installation de l'image <php:apachePDO>:
   
   Creer un répertoire avec le nom de l'image.
   
