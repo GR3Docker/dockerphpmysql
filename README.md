@@ -13,9 +13,9 @@ Cette environnment permet de dévelloper sur le langage PHP
   
   Creer un répertoire avec le nom de l'image.
   
-  Clonner le dépot Github.
+  Clonner/Télecharger le dépot Github.
   
-  Ouvrir un teminal (sous linux/mac os) ou invite de commande(Windows).
+  Ouvrir un teminal (sous linux/mac os) ou invite de commande ou PowerShell (Windows).
   
   Ce rendre dans le repertoire où il y a le clone du dépot GitHub via le terminal.
   
