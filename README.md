@@ -1,4 +1,4 @@
-# Installation de l'environnement wordpress mysql
+# Installation de l'environnement php apache mysql
 
 Cet environnement permet de développer sur le langage PHP
 
@@ -13,7 +13,7 @@ Cet environnement permet de développer sur le langage PHP
   
   Une fois téléchargé, installer le et laisser les paramètres par défaut.
   
-### Installation de l'environnement wordpress mysql :
+### Installation de l'environnement php apache mysql :
   
   Créer un répertoire avec le nom de l'image.
   
@@ -26,6 +26,7 @@ Cet environnement permet de développer sur le langage PHP
   Puis Exécuter les commandes suivantes:
   
   ```
+  #/> docker-compose build
   #/> docker-compose up -d //cette commande permet de lancer les containers concernés
   ```
   
